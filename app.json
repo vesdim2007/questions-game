@@ -13,11 +13,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.G2i.questions"
+    },
+    "android": {
+      "package": "com.G2i.questions"
     },
     "web": {
       "favicon": "./assets/favicon.png"
